@@ -14,9 +14,6 @@ class PizzaSize(Enum):
     def topping_price(self):
         return self.value['topping']
 
-    def __str__(self):
-        return self.name
-
 
 class Pizza:
     """A pizza with a size and optional toppings."""
